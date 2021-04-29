@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,yCACE,qBACE,WACF,CACD,CAED,qBACE,WACF,CAEA,KACE,WAAW,CACX,UACF","file":"main.2f01ff68.chunk.css","sourcesContent":["@media only screen and (min-width: 600px) {\n  #backgroundContainer {\n    height: 4200;\n  }\n }\n\n#backGroundContainer {\n  height: 5000;\n}\n\nhtml{\n  height:100%;\n  width:100%;\n}\n"]}
