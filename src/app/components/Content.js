@@ -167,20 +167,21 @@ class TitleBar extends React.Component {
           </section>
           <section>
             <div style = {styles.ContentDivStyle} id="experienceContainer">
-              <Fade when={this.state.revealExperience} duration={2000}>
+              {/* <Fade when={this.state.revealExperience} duration={2000}> */}
                 <Experience getChildRefs={this.props.getChildRefs}
                             goToExperience={this.props.goToExperience}
                             setToExperienceFalse={this.props.setToExperienceFalse}
                             />
-              </Fade>
+              {/* </Fade> */}
             </div>
           </section>
           <section>
             <div style = {styles.ContentDivStyle} >
-              <Fade when={this.state.revealProjects} duration={2000}>
-                <Projects goToProject = {this.props.goToProject}
+              {/* <Fade when={this.state.revealProjects} duration={2000}> */}
+                <Projects getChildRefs={this.props.getChildRefs}
+                          goToProject = {this.props.goToProject}
                           setToProjectFalse = {this.props.setToProjectFalse}/>
-              </Fade>
+              {/* </Fade> */}
             </div>
           </section>
 

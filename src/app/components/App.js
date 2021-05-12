@@ -214,8 +214,8 @@ class App extends Component {
 
       backGroundContainerTiny: {
         width: "100%",
-        height: 4800,
-        overflowX: "hidden",
+        height: 4700,
+        // overflowX: "hidden",
         background: `url(${backgroundIMG2})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -227,7 +227,7 @@ class App extends Component {
       backGroundContainer: {
         width: "100%",
         height: 4500,
-        overflow: "hidden",
+        // overflow: "hidden",
         background: `url(${backgroundIMG2})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -239,7 +239,7 @@ class App extends Component {
       backGroundContainerPad: {
         width: "100%",
         height: 3800,
-        overflow: "hidden",
+        // overflow: "hidden",
         background: `url(${backgroundIMG2})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -252,7 +252,7 @@ class App extends Component {
       backGroundContainerDesktop : {
         width: "100%",
         height: 3700,
-        overflow: "hidden",
+        // overflow: "hidden",
         background: `url(${backgroundIMG2})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",

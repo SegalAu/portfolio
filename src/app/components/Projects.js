@@ -141,8 +141,8 @@ class Projects extends React.Component {
       CardElement: {
           marginLeft: this.state.width*0.05,
           marginTop: 40,
-          width: document.documentElement.clientWidth*0.75,
-          minWidth: document.documentElement.clientWidth*0.75,
+          width: document.documentElement.clientWidth*0.8,
+          minWidth: document.documentElement.clientWidth*0.8,
       },
 
       CardElementMobile: {
@@ -204,7 +204,7 @@ class Projects extends React.Component {
     return(
       <div style = {stylesRender.container} >
 
-        <Fade duration={1500}>
+        {/* <Fade duration={1500}> */}
 
         <MediaQuery query="(max-device-width: 1020px)">
           <Typography variant="h2" gutterBottom id="project" style={stylesRender.projectHeading}>
@@ -251,7 +251,6 @@ class Projects extends React.Component {
                   <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
                   <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
                   <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
-                  <li>	Worked with analysts in creating product demos to potential and existing clients </li>
                 </ul>
               </Typography>
 
@@ -291,7 +290,6 @@ class Projects extends React.Component {
                   <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
                   <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
                   <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
-                  <li>	Worked with analysts in creating product demos to potential and existing clients </li>
                 </ul>
               </Typography>
 
@@ -371,7 +369,6 @@ class Projects extends React.Component {
                   <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
                   <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
                   <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
-                  <li>	Worked with analysts in creating product demos to potential and existing clients </li>
                 </ul>
               </Typography>
 
@@ -411,7 +408,6 @@ class Projects extends React.Component {
                   <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
                   <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
                   <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
-                  <li>	Worked with analysts in creating product demos to potential and existing clients </li>
                 </ul>
               </Typography>
 
@@ -466,7 +462,7 @@ class Projects extends React.Component {
 
       </MediaQuery>
 
-              </Fade>
+              {/* </Fade> */}
       </div>
     );
   }

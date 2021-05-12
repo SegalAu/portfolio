@@ -48,7 +48,8 @@ module.exports = {
        },
        {
          test: /\.html$/,
-         use: 'html-loader?attrs[]=video:src'
+         use: 'html-loader?attrs[]=video:src',
+         loader: 'html?interpolate=require'          
        },
        {
           test:/\.css$/,

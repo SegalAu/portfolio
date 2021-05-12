@@ -86,7 +86,7 @@ import MediaQuery from 'react-responsive';
 
 var aboutText = "An energetic and focused individual with a drive for the betterment of people and technology. " +
 "Often found snowboarding in the wild or improving his mediocre skills in Super Smash Bros, this unique Homo Sapien has limited " +
-"cooking ability but an exceptionally large appetite.                            Weaknesses include: Spicy food, horror movies, and heights";
+"cooking ability but an exceptionally large appetite. \nWeaknesses include: Spicy food, horror movies, and heights";
 
 
 const images = [
@@ -162,6 +162,7 @@ const styles = theme => ({
     maxHeight: 1000,
   },
   content:{
+    width: document.documentElement.clientWidth * 0.75
   },
   contactContent:{
     backgroundColor: "transparent",
@@ -372,7 +373,7 @@ class About extends React.Component {
         boxShadow: 'none',
         overflow: "hidden",
         maxHeight: 300,
-        maxWidth: document.documentElement.clientWidth * 0.9
+        width: document.documentElement.clientWidth * 0.9
       },
 
       cardStyle2:{
@@ -386,7 +387,7 @@ class About extends React.Component {
 
       collapseCardStyle:{
         // width: this.state.width*0.4,
-        maxWidth: document.documentElement.clientWidth * 0.9,
+        width: document.documentElement.clientWidth * 0.9,
         height: "auto",
         marginLeft: 20,
       },
