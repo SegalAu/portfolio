@@ -271,31 +271,31 @@ class Projects extends React.Component {
             <CardContent style = {stylesRender.headerBar}>
               <Typography gutterBottom variant="h5" component="h2"
                           style = {stylesRender.headerBar}>
-                Take 2 Foods
+                Tic Tac Toe
               </Typography>
               <Typography gutterBottom variant="caption" component="h2"
                           style = {stylesRender.headerBar}>
-                Food Waste Management Mobile Web Application
+                Multi-Language Message Queue Application
               </Typography>
               <Typography gutterBottom variant="overline" component="h2"
                           style = {stylesRender.headerBar}>
-                Metro Vancouver Project - Runner-Up Recipient
+                Personal Project
               </Typography>
 
               <Typography variant="subtitle1">
                 <ul>
-                  <li>	Contributed in designing and implementing responsive web application tools platform for internal development and analyst team using React / Redux
-                  <br/> (enabled cross-platform compatibility and increased productivity by approximately 70%) </li>
-                  <li>	Collaborated and wrote software to exceed specific client requirements and establish data handling regulation </li>
-                  <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
-                  <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
-                  <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
+                  <li>	Javascript Components: front-end (React web application) and Node Express Server backend </li>
+                  <li>	Java Components: Game logic handler (Monte Carlo Heuristics for computer move decisions) </li>
+                  <li>	Python Components: Receiver (communicates between server and game logic handler) </li>
+                  <li>	Message Queues: RabbitMQ used for communication between node express server (JS) and receiver (Python) </li>
+                  <li>	Message Queues: Py4J used for communication between receiver (Python) and game application (Java) </li>
+                  <li>  Inspired by academic assignment where message queues was introduced. Created game application as practice</li>
                 </ul>
               </Typography>
 
               <Button variant="outlined"
 
-               color="secondary" target = "_blank" href="https://github.com/Flinze/take2">
+               color="secondary" target = "_blank" href="https://github.com/SegalAu/TicTacToe">
 
                 Source Code
                 <CodeIcon style={stylesRender.projectButtonIcon}/>
@@ -389,31 +389,31 @@ class Projects extends React.Component {
             <CardContent style = {stylesRender.headerBar}>
               <Typography gutterBottom variant="h5" component="h2"
                           style = {stylesRender.headerBar}>
-                Take 2 Foods
+                Tic Tac Toe
               </Typography>
               <Typography gutterBottom variant="caption" component="h2"
                           style = {stylesRender.headerBar}>
-                Food Waste Management Mobile Web Application
+                Multi-Language Message Queue Application
               </Typography>
               <Typography gutterBottom variant="overline" component="h2"
                           style = {stylesRender.headerBar}>
-                Metro Vancouver Project - Runner-Up Recipient
+                Personal Project
               </Typography>
 
               <Typography variant="subtitle1">
                 <ul>
-                  <li>	Contributed in designing and implementing responsive web application tools platform for internal development and analyst team using React / Redux
-                  <br/> (enabled cross-platform compatibility and increased productivity by approximately 70%) </li>
-                  <li>	Collaborated and wrote software to exceed specific client requirements and establish data handling regulation </li>
-                  <li>	Conducted regular QA testing and bug-fixing using Jest / Mocha </li>
-                  <li>	Performed back-end integration and development using internal RESTful API (Java) </li>
-                  <li>	Enhanced front-end interaction and UI elements of internal development tools using React framework and third-party APIs such as Material UI </li>
+                <li>	Javascript Components: front-end (React web application) and Node Express Server backend </li>
+                  <li>	Java Components: Game logic handler (Monte Carlo Heuristics for computer move decisions) </li>
+                  <li>	Python Components: Receiver (communicates between server and game logic handler) </li>
+                  <li>	Message Queues: RabbitMQ used for communication between node express server (JS) and receiver (Python) </li>
+                  <li>	Message Queues: Py4J used for communication between receiver (Python) and game application (Java) </li>
+                  <li>  Inspired by academic assignment where message queues was introduced. Created game application as practice</li>
                 </ul>
               </Typography>
 
               <Button variant="outlined"
 
-               color="secondary" target = "_blank" href="https://github.com/Flinze/take2">
+               color="secondary" target = "_blank" href="https://github.com/SegalAu/TicTacToe">
 
                 Source Code
                 <CodeIcon style={stylesRender.projectButtonIcon}/>
